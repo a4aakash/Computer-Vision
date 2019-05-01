@@ -3,7 +3,7 @@ import cv2
 import vlc
 ob = vlc.Instance()
 player = ob.media_player_new()
-Media = ob.media_new('one.mp4')
+Media = ob.media_new('your video file with extension')
 player.set_media(Media)
 k,flag=0,0
 img=cv2.VideoCapture(0)
