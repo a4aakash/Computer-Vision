@@ -6,16 +6,13 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load sample
-image1 = face_recognition.load_image_file("pp1.jpg")
+image1 = face_recognition.load_image_file("Your Image Here with extension")
 encoding1 = face_recognition.face_encodings(image1)[0]
-
-#image2 = face_recognition.load_image_file(".jpg")
-#encoding2 = face_recognition.face_encodings(biden_image)[0]
 
 known_face_encodings = [encoding1,
                         #encoding2]
                         ]
-known_face_names = ["Akash"
+known_face_names = ["Put Your Name Which U Wants to See on Ur Image"
                     ,]
 
 face_locations = []
